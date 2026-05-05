@@ -4,6 +4,7 @@
     """
 
 
+
     nombre= input("cual es tu nombre?")
     apellido= input("cual es tu apellido?")
     nombre_completo= nombre + " " + apellido
@@ -12,3 +13,5 @@
     print(nombre_completo.title())
     print(nombre_completo.upper())
     print("\t" + nombre_completo.lower())
+
+
