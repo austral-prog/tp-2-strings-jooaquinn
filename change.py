@@ -18,6 +18,6 @@ def change():
     print("\nPesos:")
     print(int(vuelto))
 
-    centavos = float((vuelto - int(vuelto)) * 100)
+    centavos = round((vuelto - int(vuelto)) * 100)
     print("Centavos:")
     print(centavos)
