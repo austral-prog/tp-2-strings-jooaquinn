@@ -3,10 +3,16 @@ def check_vowels():
     sin distinguir mayúsculas de minúsculas.
     """
     pass
-    nombre =  input( "ingrese su nombre: \n")
-    print(nombre.lower())
-    print("a" in nombre.lower())
-    print("e" in nombre.lower())
-    print("i" in nombre.lower())
-    print("o" in nombre.lower())
-    print("u" in nombre.lower())
+
+    nombre = input("Ingresar nombre:").lower()
+    contiene_a = "a" in nombre
+    contiene_e = "e"in nombre
+    contiene_i = "i"in nombre
+    contiene_o = "o"in nombre
+    contiene_u = "u" in nombre
+
+    print(f"Contiene a: {contiene_a}")
+    print(f"Contiene e: {contiene_e}")
+    print(f"Contiene i: {contiene_i}")
+    print(f"Contiene o: {contiene_o}")
+    print(f"Contiene u: {contiene_u}")
